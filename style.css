@@ -1,0 +1,63 @@
+header img {
+    width: 67vw;
+    display: inline;
+    margin-left: 6vw;
+}
+
+nav {
+    display: inline;
+    padding-left: 0;
+    margin-bottom: 4vh;
+    width: 33vw;
+}
+
+nav button {    
+    color:#000000;
+    background-color: #FFCB74;
+    position:relative;
+    bottom: 2.65vw;
+    text-align: left;
+    margin: 0vw;
+    max-width: 7vw;
+    font-size: 1.4vw;
+    height: 6.22vw;
+    padding: 0vw 1vw;
+    border-style: none;
+}
+
+.bio {
+    margin: 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: .5vw;
+}
+
+
+.emilypic img {
+    margin-left: 3vw;
+    width: 30vw;
+    border: 5vw solid #EA907A;
+    padding: 0vw;
+}
+
+h1  {
+    color: #FFCB74;
+    font-size: 6vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+}
+
+.bio p {
+    margin-top: 0vw;
+    font-size: 1.8vw;
+}
+
+.resume {
+    margin: 0vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: .5vw;
+}
