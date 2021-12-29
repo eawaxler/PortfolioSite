@@ -1,3 +1,16 @@
+#shape {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    z-index: 0;
+    width: 50vw;
+}
+
+p {
+    position: relative;
+    z-index: 10;
+}
+
 header img {
     width: 67vw;
     display: inline;
@@ -32,9 +45,8 @@ nav button {
     justify-content: space-evenly;
     margin-left: 6vw;
     margin-right: 6vw;
-    margin-top: .5vw;
+    margin-top: .2vw;
 }
-
 
 .emilypic img {
     margin-left: 3vw;
@@ -48,11 +60,12 @@ h1  {
     font-size: 6vw;
     margin-top: 0vw;
     margin-bottom: 0vw;
+    text-align: center;
 }
 
 .bio p {
     margin-top: 0vw;
-    font-size: 1.8vw;
+    font-size: 2vw;
 }
 
 .resume {
@@ -60,4 +73,18 @@ h1  {
     margin-left: 6vw;
     margin-right: 6vw;
     margin-top: .5vw;
+}
+
+h2 {
+    color: #508a8b;
+    margin-bottom: 0;
+    margin-left: 11vw;
+    font-size: 3vw;
+}
+
+.block {
+    margin: 0 5vw .5vw 5vw;
+    margin-top: 0;
+    background-color: #ea907a;
+    padding: 1vw 6vw 2vw 6vw;
 }

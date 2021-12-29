@@ -18,17 +18,17 @@
         
         <div class="resume">
             <h1>resume</h1>
-            <button class="accordion">Education</button>
-			<div class="panel">
-				<h2>Georgia Institute of Technology</h2>
+            <h2>Education</h2>
+			<div class="block">
+				<h3>Georgia Institute of Technology</h3>
 				<p>Atlanta, GA
 				<br>August 2017 - May 2022 (Expected)
 				<br>BS in Computational Media
 				<br>Minor in Spanish Language and Culture		
-				<br>Major GPA: 3.43/4.0
+				<br>Cumulative GPA: 3.0/4.0
 				</p>
 
-				<h2>Wyomissing Area Junior / Senior High School</h2>
+				<h3>Wyomissing Area Junior / Senior High School</h3>
 				<p>Wyomissing, PA
 				<br>August 2014 - May 2017
 				<br>High School Diploma
@@ -36,9 +36,22 @@
 			</div>
 			<br>
 				
-			<button class="accordion">Work Experience</button>
-			<div class="panel">
-				<h2>Mechanical Engineering Intern</h2>
+			<h2>Work Experience</h2>
+			<div class="block">
+				<h3>Digital Content Development Intern</h3>
+				<p>	Qurate Retail Group
+					<br>June 2021 to August 2021
+					<br>West Chester, Pennsylvania
+					<br>Responsibilities
+				</p>
+				<ul>
+					<li class="responsibilities">Developed daily content changes through a content management system, Adobe Experience Manager.</li>
+					<li class="responsibilities">Organized and published content for the QVC.com website.</li>
+					<li class="responsibilities">Utilized Monetate software to create custom content using HTML.</li>
+					<li class="responsibilities">Trained in current best practices for Accessibility in Web Development.</li>
+				</ul>
+				<br>
+				<h3>Mechanical Engineering Intern</h3>
 				<p>	Air Products &amp; Chemicals
 					<br>June 2019 to August 2019
 					<br>Trexlertown, Pennsylvania
@@ -50,7 +63,7 @@
 					<li class="responsibilities">Sorted and curated international engineering standards and documentation.</li>
 				</ul>
 				<br>
-				<h2>Order Engineering Intern</h2>
+				<h3>Order Engineering Intern</h3>
 				<p>	Schneider Electric
 					<br>June 2018 to August 2018
 					<br>Leesport, Pennsylvania
@@ -64,23 +77,23 @@
 			</div>
 			<br>
      
-			<button class="accordion">Relevant Coursework</button>
-       		<div class="panel">
-				<h2>Math</h2>
+			<h2>Relevant Coursework</h2>
+       		<div class="block">
+				<h3>Math</h3>
 					<ul>
 						<li>MATH 1554: Linear Algebra</li>
 						<li>MATH 2551: Multivariable Calculus</li>
 						<li>MATH 2552: Differential Equations</li>
 						<li>CS 2050: Introduction to Discrete Math</li>
 					</ul>
-				<h2>Science</h2>
+				<h3>Science</h3>
 					<ul>
 						<li>PHYS 2211: Introductory Physics I</li>
 						<li>PHYS 2212: Introductory Physics II</li>
 						<li>CHEM 1310: General Chemistry</li>
 					</ul>
 
-				<h2>Computer Science</h2>
+				<h3>Computer Science</h3>
 					<ul>
 						<li>AP Computer Science A (Java)</li>
 						<li>CS 1371: Computing For Engineers (MATLAB)</li>
@@ -91,42 +104,12 @@
 						<li>CS 2340: Objects and Design (UML, JavaFX)</li>
 						<li>LMC 2700: Introduction to Computational Media (HTML, CSS, A-Frame, JavaScript)</li>
 					</ul>
-				<h2>Graphic Design and Other Software</h2>
+				<h3>Graphic Design and Other Software</h3>
 				<ul>
 					<li>ME 1770: Introduction to Engineering Graphics and Visualization (Solidworks)</li>
 					<li>LMC 2620: Principles of Visual Design (Adobe Photoshop, LightRoom, Illustrator)</li>
 				</ul>
 			</div>
         </div>
-
-        <script>
-			window.onscroll = function() {myFunction()};
-
-			var navbar = document.getElementById("navbar");
-			var sticky = navbar.offsetTop;
-
-			function myFunction() {
-			  if (window.pageYOffset >= sticky) {
-				navbar.classList.add("sticky")
-			  } else {
-				navbar.classList.remove("sticky");
-			  }
-			}
-			
-			var acc = document.getElementsByClassName("accordion");
-			var i;
-
-			for (i = 0; i < acc.length; i++) {
-			  acc[i].addEventListener("click", function() {
-				this.classList.toggle("active");
-				var panel = this.nextElementSibling;
-				if (panel.style.display === "block") {
-				  panel.style.display = "none";
-				} else {
-				  panel.style.display = "block";
-				}
-			  });
-			}
-		</script>
     </body>
 </html>
