@@ -9,6 +9,78 @@
 p {
     position: relative;
     z-index: 10;
+    margin-top: .75vw;
+}
+
+.bio {
+    margin: 0vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 1vw;
+}
+
+@media (min-aspect-ratio: 4/3) {
+    .bio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .bio p {
+        font-size: 2.5vw;
+    }
+    .emilypic img {
+        margin-top: 0;
+        margin-left: 3vw;
+        width: 30vw;
+        border: 5vw solid #EA907A;
+    }
+    #shape {
+        visibility: visible;
+    }
+    p {
+        font-size: 1.8vw;
+    }
+    h2 {
+        font-size: 3vw;
+    }
+    h3 { 
+        font-size: 2.5vw; 
+    }
+    ul {
+        font-size: 1.8vw;
+    }
+}
+
+
+@media (max-aspect-ratio: 4/3) {
+    .bio {
+        display: block;
+    }
+    .bio p {
+        font-size: 3.5vw;
+    }
+    .emilypic img {
+        margin-top: 3vw;
+        margin-left: 0;
+        width: 65vw;
+        border: 10vw solid #EA907A;
+    }
+    #shape {
+        visibility: hidden;
+    }
+    p {
+        font-size: 2.8vw;
+    }
+    h2 {
+        font-size: 3.7vw;
+    }
+    h3 {
+        font-size: 3.2vw;
+    }
+    ul {
+        font-size: 2.8vw;
+    }
+    
 }
 
 header img {
@@ -38,34 +110,32 @@ nav button {
     border-style: none;
 }
 
-.bio {
-    margin: 0vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 6vw;
-    margin-right: 6vw;
-    margin-top: .2vw;
-}
-
 .emilypic img {
-    margin-left: 3vw;
-    width: 30vw;
-    border: 5vw solid #EA907A;
     padding: 0vw;
 }
 
 h1  {
     color: #FFCB74;
-    font-size: 6vw;
+    font-size: 7vw;
     margin-top: 0vw;
     margin-bottom: 0vw;
     text-align: center;
 }
 
+h2 {
+    color: #508a8b;
+    margin-bottom: 0;
+    margin-left: 11vw;
+}
+
+h3 {
+    margin-bottom: 0;
+    margin-top: 3vw;
+}
+
+
 .bio p {
     margin-top: 0vw;
-    font-size: 2vw;
 }
 
 .resume {
@@ -73,13 +143,6 @@ h1  {
     margin-left: 6vw;
     margin-right: 6vw;
     margin-top: .5vw;
-}
-
-h2 {
-    color: #508a8b;
-    margin-bottom: 0;
-    margin-left: 11vw;
-    font-size: 3vw;
 }
 
 .block {
