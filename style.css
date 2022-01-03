@@ -108,6 +108,7 @@ nav button {
     height: 6.22vw;
     padding: 0vw 1vw;
     border-style: none;
+    cursor: pointer;
 }
 
 .emilypic img {
